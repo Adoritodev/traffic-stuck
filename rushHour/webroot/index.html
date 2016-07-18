@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RushHour</title>
+
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/jquery-ui.min.css">
+    <script src="../public/js/jquery-2.2.3.min.js"></script>
+    <script src="../public/js/jquery-ui.min.js"></script>
+    <script src="../public/js/code.js"></script>
+
+
+</head>
+<body>
+
+
+    <h2> Rush Hour - JS </h2>
+
+    <div id="hole"></div>
+
+    <table id="gameArea">
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+
+    <div id="moveInHere"></div>
+
+        <!-- Auto -->
+        <div id="auto" class="bump leftright"></div>
+
+        <!-- Voitures -->
+        <div id="autoVertClair" class="bump updown"></div>
+        <div id="autoBrun" class="bump updown"></div>
+        <div id="autoBleu" class="bump updown"></div>
+        <div id="autoMauve" class="bump leftright"></div>
+        <div id="autoViolet" class="bump updown"></div>
+        <div id="autoVertFonce" class="bump leftright"></div>
+
+        <!-- Camions -->
+        <div id="camionJaune" class="bump leftright"></div>
+        <div id="camionBleu" class="bump leftright"></div>
+        <div id="camionRose" class="bump updown"></div>
+        <div id="camionVert" class="bump leftright"></div>
+
+    <!-- Dialog window jquery ui -->
+    <div id="dialog" title="Partie termin&eacute;e">
+        Bravo ! Vous avez gagn&eacute; en <span id="nbTour"></span> essai(s) !
+    </div>
+
+
+    <h2 id="tours"> Nb essai(s) :  0 </h2>
+    <button id="reset">Recommencer</button>
+
+
+</body>
+</html>
